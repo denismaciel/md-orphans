@@ -1,0 +1,8 @@
+- id: md-orphans
+  name: Check for orphaned Markdown files
+  description: Find Markdown documents without incoming links from other documents.
+  entry: md-orphans
+  language: golang
+  pass_filenames: false
+  always_run: true
+  minimum_pre_commit_version: '3.0.0'
